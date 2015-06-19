@@ -1,2 +1,5 @@
 compile
 clean
+assemble
+assembly
+clean

@@ -4,6 +4,8 @@ version := "1.0"
 
 scalaVersion := "2.11.6"
 
+mainClass in assembly := Some("com.ctd.bigdata.SimpleConsumer")
+
 resolvers ++= Seq("snapshots" at "http://oss.sonatype.org/content/repositories/snapshots",
   "releases" at "http://oss.sonatype.org/content/repositories/releases",
   "scalaz-bintray" at "https://dl.bintray.com/scalaz/releases",

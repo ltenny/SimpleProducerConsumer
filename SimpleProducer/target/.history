@@ -1,2 +1,9 @@
 compile
 clean
+compile package
+package
+compile
+assembly
+clean
+assembly
+clean
